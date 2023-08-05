@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+:root
+{
+	--darkbeige: #D9B382;
+    --bg:#fefbe9; /*light beige*/
+    --light-green: #e1eedd;
+    --dark-green: #183a1d;
+    --border:.1rem solid #183a1d;
+}
+
+
+.home-cs .mySlides
+{
+	display: none;
+	max-width: 100%;
+}
+
+.home-cs .slideshow-container
+{
+	height: 30%;
+}
+
+
+/*------------------------
+	Programme Section
+---------------------------*/
+.programme2
+{
+	background: var(--darkbeige);
+}
+
+.programme2 .box-container
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	gap: 1.5rem;
+}
+
+.programme2 .heading 
+{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.programme2 .box-container .box 
+{
+	padding: 3rem;
+	text-align: center;
+	border: var(--border);
+	border-radius: 8px;
+	height: 500px;
+}
+
+.programme2 .box-container .box img 
+{
+	height: 20rem;
+	border-radius: 8px;
+}
+
+.programme2 .box-container .box  h3
+{
+	color: #fff;
+	font-size: 2rem;
+	padding: 1rem 0;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.programme2 .box-container .box p 
+{
+	color: #fff;
+	font-size: 1.8rem;
+	padding: 5rem 0;
+}
+
+.programme2 .box-container .box:hover 
+{
+	background: var(--bg);
+}
+
+.programme2 .box-container .box:hover > *
+{
+	color: var(--darkbeige);
+}
+
+.programme2 .box-container .box .btn 
+{
+
+	margin-top: 5rem;
+	display: inline-block;
+	padding:.9rem 3rem;
+	font-size: 1.7rem;
+	color: var(--dark-green);
+	background: var(--light-green);
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.programme2 .box-container .box .btn:hover 
+{
+
+	background: var(--dark-green);
+	color: var(--light-green);
+}
