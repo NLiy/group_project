@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'lTHrNZorWV8@8Vtn',
-	'database' => 'group_2021/2022',
+	'hostname' =>
+	'username' => 
+	'password' => 
+	'database' =>
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
