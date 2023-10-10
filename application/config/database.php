@@ -97,10 +97,10 @@ $db['default'] = array(
 
 // $db['db2'] = array(
 // 	'dsn'	=> '',
-// 	'hostname' => 'localhost',
-// 	'username' => 'root',
-// 	'password' => 'syafikabi20110178',
-// 	'database' => 'bi20110178_webtech',
+// 	'hostname' => 
+// 	'username' => 
+// 	'password' => 
+// 	'database' => 
 // 	'dbdriver' => 'mysqli',
 // 	'dbprefix' => '',
 // 	'pconnect' => FALSE,
